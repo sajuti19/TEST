@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+.background{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./src/background.png);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 120px;
+}
+#logo{
+    width: 10%;
+}
+#title{
+    margin-top: 200px;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#title-big{
+    letter-spacing: 5px;
+    color: #eb1c22;
+    font-size: 200px;
+    font-weight: bold;
+}
+.link{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin-top:30px ;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    
+}
+
+.link svg{
+    width: 15px;
+    transition: all 0.3s ease-in-out;
+    vertical-align: bottom;
+}
+.link:hover svg {
+    margin-left: 15px;
+
+}
+.section-title {
+    
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:44px ;
+    letter-spacing: 5px;
+}
+.card {
+    display: inline-block;
+    margin-left: 10%;
+    
+    width: 20%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.card-img {
+    
+    display: block;
+    width: 100%;
+}
+.card-title {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.card-btn {
+    display: block;
+    padding: 10px 45px;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #eb1c22;
+    color: #eb1c22;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+.card-btn:hover {
+    background-color: #eb1c22;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+.footer {
+    padding :100px 0;
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+}
+.font-color {
+    color: #eb1c22;
+}
+.load-more-btn .link {
+    color: #eb1c22;
+}
+.load-more-btn {
+    fill: #eb1c22;
+    margin-bottom: 150px;
+    text-align: center;
+}
